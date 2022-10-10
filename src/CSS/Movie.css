@@ -1,0 +1,53 @@
+.box_movie{
+    display:flex;
+    justify-content: space-between;
+    width:200px;
+    border:2px solid rgb(255, 255, 255);
+    margin:10px;
+}
+h5,h6{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.image img{
+    margin: auto;
+  width: 180px; 
+  padding: 20px;
+  font-family: 'Avenir', sans-serif; 
+  color: #33475b;  
+}
+.box{
+display: flex;
+
+}
+.rating{
+   padding: 0;
+   display: flex;
+}
+.rating img{
+    padding: 0;
+    width:25%;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .img_down{
+    margin-top: 5px;
+  }
